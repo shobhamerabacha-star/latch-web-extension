@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "lint": "eslint src --ext .ts,.tsx",
-    "build": "node scripts/clean-dist.mjs && node scripts/copy-license.mjs && tsc -p tsconfig.json",
+    "build": "node init && node scripts/clean-dist.mjs && node scripts/copy-license.mjs && tsc -p tsconfig.json",
     "test": "vitest run",
     "prepublishOnly": "pnpm run lint && pnpm run test && pnpm run build && node scripts/verify-publish-tool.mjs && node scripts/verify-publish-manifest.mjs && node scripts/verify-esm.mjs"
   },
