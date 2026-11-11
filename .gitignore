@@ -6,8 +6,6 @@ packages/sdk/LICENSE
 .turbo/
 .next/
 *.tsbuildinfo
-.env
-.env.local
 .DS_Store
 .pnpm-store/
 .tools/
@@ -52,3 +50,4 @@ TRANSAK_WIDGET_SESSION_GO.md
 TRANSAK_WIDGET_SESSION_NEXTJS.md
 OSS_READINESS_CHECKLIST.md
 LATCH_BACKEND_DOMAIN_WEBAUTHN_RPID.md
+config.bat
